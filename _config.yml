@@ -3,6 +3,6 @@ logo: https://www.uca.fr/uas/ksup/LOGO_CLAIR/UCA__Logo_head.png
 title: Cours Université Clermont Auvergne
 description: Cours d'informatiques du B.U.T Sciences des données.
 
-text-col: "#007686"
+navbar-text-col: "#007686"
 link-col: "#007686"
 hover-col: "#009AA0"
