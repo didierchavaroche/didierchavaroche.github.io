@@ -23,6 +23,12 @@ body {
     text-decoration: underline;
 }
 
+@media print {
+    .header {
+        display: none;
+    }
+}
+
 h1, h2, h3 {
     color: #343a40;
     margin-top: 40px;
