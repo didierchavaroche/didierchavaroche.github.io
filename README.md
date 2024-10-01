@@ -7,9 +7,17 @@
 L’objectif de cette ressource est de présenter les approches et les outils qui, au-dela du langage de programmation même,
 permettent de mener à bien un projet informatique
 Contenus :
-- Cycle de vie d’un projet informatique (conception, UML, AGL)
-- Gestion de projet informatique (méthode agile)
-- Utilisation d’un outil de versionning (git par exemple)
+1. Cycle de vie d’un projet informatique (conception, UML, AGL)
+- [x] [Cours 1 : Motivations au développement logiciel](https://denis-migdal.github.io/Cours/dist/dev/pages/R5-06-VCOD/CM/CM1/)
+- [x] [Cours 2 : ]()
+
+2. Gestion de projet informatique (méthode agile)
+- [ ] [Cours 3 : ](/R5-VCOD-06/Cours_3/cm.html)
+- [ ] [Cours 4 : ](/R5-VCOD-06/Cours_4/cm.html)
+- [ ] [Cours 5 : ](/R5-VCOD-06/Cours_5/cm.html)
+
+3. Utilisation d’un outil de versionning (git par exemple)
+- [ ] Cours 6
 
 La formation intègre des apports en matière d’ingénierie logicielle visant à faciliter l’intégration d’équipes de développement par
 nos étudiants en leur donnant les fondamentaux du domaine et en les sensibilant aux bonnes pratiques et outils dédiés.
