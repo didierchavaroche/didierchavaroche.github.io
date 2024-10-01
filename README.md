@@ -12,9 +12,9 @@ Contenus :
 - [x] [Cours 2 : ]()
 
 2. Gestion de projet informatique (méthode agile)
-- [ ] [Cours 3 : ](/R5-VCOD-06/Cours_3/cm.html?titre=Cours%203%20%3A%20coder%20en%20entreprise)
-- [ ] [Cours 4 : ](/R5-VCOD-06/Cours_4/cm.html)
-- [ ] [Cours 5 : ](/R5-VCOD-06/Cours_5/cm.html)
+- [ ] [Cours 3 : Travail en équipe](/R5-VCOD-06/Cours_3/cm.html?titre=Cours%203%20%3A%20Travail%20en%20%C3%A9quipe)
+- [ ] [Cours 4 : J'écris mes canevas](/R5-VCOD-06/Cours_4/cm.html?titre=Cours%204%20%3A%20J%27%C3%A9cris%20mes%20canevas)
+- [ ] [Cours 5 : Je teste mon code](/R5-VCOD-06/Cours_5/cm.html?titre=Cours%205%20%3A%20Je%20teste%20mon%20code)
 
 3. Utilisation d’un outil de versionning (git par exemple)
 - [ ] [Cours 6 : ]()
