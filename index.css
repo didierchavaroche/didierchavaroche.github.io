@@ -11,6 +11,9 @@ body {
     .header {
         display: none;
     }
+    .container {
+        max-width: 800px;    
+    }
     h2 {
         page-break-after: auto;
     }
@@ -46,13 +49,8 @@ ul {
     margin-left: 20px;
 }
 
-@media screen {
-    .container {
-        max-width: 100%;    
-    }
-}
 .container {
-    max-width: 800px;
+    max-width: 100%;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
