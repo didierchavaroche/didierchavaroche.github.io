@@ -17,7 +17,7 @@ Contenus :
 - [ ] [Cours 5 : ](/R5-VCOD-06/Cours_5/cm.html)
 
 3. Utilisation d’un outil de versionning (git par exemple)
-- [ ] Cours 6
+- [ ] [Cours 6 : ]()
 
 La formation intègre des apports en matière d’ingénierie logicielle visant à faciliter l’intégration d’équipes de développement par
 nos étudiants en leur donnant les fondamentaux du domaine et en les sensibilant aux bonnes pratiques et outils dédiés.
