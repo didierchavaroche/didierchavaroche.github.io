@@ -11,8 +11,10 @@ body {
     .header {
         display: none;
     }
+    h2 {
+        page-break-after: auto;
+    }
 }
-
 .header {
     background-color: #343a40;
     color: #ffffff;
@@ -44,6 +46,11 @@ ul {
     margin-left: 20px;
 }
 
+@media screen {
+    .container {
+        max-width: 100%;    
+    }
+}
 .container {
     max-width: 800px;
     margin: 20px auto;
