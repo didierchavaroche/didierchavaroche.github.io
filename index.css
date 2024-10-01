@@ -7,6 +7,12 @@ body {
     color: #212529;
 }
 
+@media print {
+    .header {
+        display: none;
+    }
+}
+
 .header {
     background-color: #343a40;
     color: #ffffff;
@@ -21,12 +27,6 @@ body {
 
 .header a:hover {
     text-decoration: underline;
-}
-
-@media print {
-    .header {
-        display: none;
-    }
 }
 
 h1, h2, h3 {
