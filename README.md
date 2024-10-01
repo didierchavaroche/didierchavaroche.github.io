@@ -12,7 +12,7 @@ Contenus :
 - [x] [Cours 2 : ]()
 
 2. Gestion de projet informatique (méthode agile)
-- [ ] [Cours 3 : ](/R5-VCOD-06/Cours_3/cm.html)
+- [ ] [Cours 3 : ](/R5-VCOD-06/Cours_3/cm.html?titre=Cours%203%20%3A%20coder%20en%20entreprise)
 - [ ] [Cours 4 : ](/R5-VCOD-06/Cours_4/cm.html)
 - [ ] [Cours 5 : ](/R5-VCOD-06/Cours_5/cm.html)
 
