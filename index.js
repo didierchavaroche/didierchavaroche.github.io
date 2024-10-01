@@ -26,7 +26,7 @@ function setCookie(cookieName, cookieValue, expiresInDays) {
  */
 function setTitre() {
     const url = window.location.href;
-    const searchParams = new URLSearchParams(url);
+    const searchParams = new URLSearchParams(url.split('?')[1]);
     let titre = searchParams.get('titre');
     
     if(titre){
@@ -38,6 +38,9 @@ function setTitre() {
             titre = storedTitle;
         }
     }
-    document.title = titre;
-    document.getElementById('title').innerText = titre;
+
+    if(titre) {
+        document.title = titre;
+        document.getElementById('title').innerText = titre;
+    }
 }
