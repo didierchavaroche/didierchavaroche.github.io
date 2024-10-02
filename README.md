@@ -12,7 +12,7 @@ Contenus :
 - [x] [Cours 2 : ]()
 
 2. Gestion de projet informatique (méthode agile)
-- [ ] [Cours 3 : Travail en équipe](/R5-VCOD-06/Cours_3/cm.html?titre=Cours%203%20%3A%20Travail%20en%20%C3%A9quipe)
+- [ ] [Cours 3 : Étude de Cas : VCOD2A, une Entreprise de Développement Informatique](/R5-VCOD-06/Cours_3/cm.html?titre=%C3%89tude%20de%20Cas%20%3A%20VCOD2A%2C%20une%20Entreprise%20de%20D%C3%A9veloppement%20Informatique)
 - [ ] [Cours 4 : J'écris mes canevas](/R5-VCOD-06/Cours_4/cm.html?titre=Cours%204%20%3A%20J%27%C3%A9cris%20mes%20canevas)
 - [ ] [Cours 5 : Je teste mon code](/R5-VCOD-06/Cours_5/cm.html?titre=Cours%205%20%3A%20Je%20teste%20mon%20code)
 
