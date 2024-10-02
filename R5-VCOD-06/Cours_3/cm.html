@@ -53,13 +53,12 @@
         <ol>
             <li><strong>Analyse et Conception</strong> : Les développeurs analysent le cahier des charges et conçoivent l'architecture du logiciel.</li>
             <li><strong>Développement</strong> : Les développeurs écrivent le code en suivant les meilleures pratiques de développement.</li>
-            <li><strong>Tests</strong> : Les développeurs testent le logiciel pour s'assurer qu'il répond aux exigences définies dans le cahier des charges.</li>
-            <li><strong>Déploiement</strong> : Le logiciel est déployé chez le client.</li>
+            <li><strong>Tests*</strong> : Les développeurs testent le logiciel pour s'assurer qu'il répond aux exigences définies dans le cahier des charges.</li>
+            <li><strong>Mise en production**</strong> : Le logiciel est déployé chez le client.</li>
             <li><strong>Maintenance</strong> : Les développeurs assurent la maintenance du logiciel pour corriger les bugs et ajouter de nouvelles fonctionnalités.</li>
         </ol>
 
         <h2>Rôles et Responsabilités</h2>
-
         <h3>Commerciaux</h3>
         <ul>
             <li><strong>Rencontre avec le Client</strong> : Rencontrer le client pour comprendre ses besoins.</li>
@@ -78,6 +77,90 @@
 
         <h2>Conclusion</h2>
         <p>VCOD2A est une entreprise de développement informatique bien structurée, avec des rôles et des responsabilités clairement définis. Le processus de développement logiciel commence par la rédaction du cahier des charges par l'équipe commerciale, en collaboration avec le client. Les développeurs utilisent ensuite ce document pour concevoir, développer, tester et déployer le logiciel. La collaboration entre les équipes commerciales et de développement est essentielle pour assurer le succès des projets et la satisfaction des clients.</p>
+
+        <h2>*Comparaison des Tests Unitaires et Fonctionnels</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Tests Unitaires</th>
+                    <th>Tests Fonctionnels</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portée</td>
+                    <td>Unités de code individuelles (fonctions, méthodes)</td>
+                    <td>Fonctionnalités globales du logiciel</td>
+                </tr>
+                <tr>
+                    <td>Objectif</td>
+                    <td>Vérifier le bon fonctionnement des unités de code en isolation</td>
+                    <td>Vérifier que le logiciel fonctionne correctement du point de vue de l'utilisateur final</td>
+                </tr>
+                <tr>
+                    <td>Niveau de détail</td>
+                    <td>Très détaillé, se concentre sur les composants individuels</td>
+                    <td>Moins détaillé, se concentre sur les fonctionnalités globales</td>
+                </tr>
+                <tr>
+                    <td>Moment d'exécution</td>
+                    <td>Tôt dans le cycle de développement</td>
+                    <td>Plus tard dans le cycle de développement, souvent après l'intégration</td>
+                </tr>
+                <tr>
+                    <td>Outils</td>
+                    <td>Frameworks de tests unitaires (JUnit, pytest, etc.)</td>
+                    <td>Outils de tests fonctionnels (Selenium, Robot Framework, etc.)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>**Concept de Mise en Production/Release</h2>
+
+        <h3>Introduction</h3>
+        <p>La mise en production, également connue sous le terme de "release", est le processus de déploiement d'une version finale d'un logiciel ou d'une application dans un environnement de production. Cet environnement est généralement celui où le logiciel sera utilisé par les utilisateurs finaux. La mise en production est une étape cruciale dans le cycle de vie du développement logiciel, car elle marque la transition du logiciel de l'état de développement à l'état opérationnel.</p>
+
+        <h3>Objectifs de la Mise en Production</h3>
+        <ol>
+            <li><strong>Disponibilité</strong> : Rendre le logiciel accessible aux utilisateurs finaux.</li>
+            <li><strong>Fiabilité</strong> : Assurer que le logiciel fonctionne correctement et de manière stable dans l'environnement de production.</li>
+            <li><strong>Sécurité</strong> : Garantir que le logiciel est sécurisé et protégé contre les menaces potentielles.</li>
+            <li><strong>Performance</strong> : Vérifier que le logiciel répond aux exigences de performance dans un environnement réel.</li>
+            <li><strong>Maintenance</strong> : Faciliter la maintenance et les mises à jour futures du logiciel.</li>
+        </ol>
+
+        <h3>Étapes de la Mise en Production</h3>
+        <ol>
+            <li><strong>Préparation</strong> :
+                <ul>
+                    <li><strong>Tests</strong> : Effectuer des tests exhaustifs pour s'assurer que le logiciel est prêt pour la production. Cela inclut les tests fonctionnels et les tests de performance.</li>
+                    <li><strong>Documentation</strong> : Mettre à jour la documentation du logiciel, y compris les guides d'utilisation, les manuels de déploiement et les notes de version.</li>
+                    <li><strong>Planification</strong> : Planifier la date et l'heure de la mise en production (relase) pour minimiser l'impact sur les utilisateurs.</li>
+                </ul>
+            </li>
+            <li><strong>Déploiement</strong> :
+                <ul>
+                    <li><strong>Déploiement du Code</strong> : Déployer le code source du logiciel sur les serveurs de production. Cela peut être fait manuellement ou automatiquement à l'aide d'outils de déploiement comme Jenkins, GitLab CI/CD, ou Azure DevOps.</li>
+                    <li><strong>Configuration</strong> : Configurer les paramètres spécifiques à l'environnement de production, tels que les configurations de base de données, les paramètres de sécurité et les configurations de serveur.</li>
+                </ul>
+            </li>
+            <li><strong>Vérification</strong> :
+                <ul>
+                    <li><strong>Tests de Validation</strong> : Effectuer des tests de validation pour s'assurer que le logiciel fonctionne correctement dans l'environnement de production. Cela inclut des tests de fumée (smoke tests) pour vérifier les fonctionnalités de base.</li>
+                    <li><strong>Surveillance</strong> : Mettre en place des outils de surveillance pour surveiller les performances et la disponibilité du logiciel en production.</li>
+                </ul>
+            </li>
+            <li><strong>Communication</strong> :
+                <ul>
+                    <li><strong>Notification</strong> : Informer les utilisateurs finaux et les parties prenantes de la mise en production. Cela peut inclure des annonces par e-mail, des notifications dans l'application ou des mises à jour sur un site web.</li>
+                    <li><strong>Support</strong> : Assurer que l'équipe de support est prête à répondre aux questions et aux problèmes des utilisateurs.</li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Conclusion</h3>
+        <p>La mise en production est une étape critique dans le cycle de vie du développement logiciel. Elle nécessite une planification minutieuse, des tests rigoureux et une communication efficace pour assurer que le logiciel est déployé de manière fluide et fonctionne correctement dans l'environnement de production. En suivant les meilleures pratiques et en utilisant les bons outils, les équipes de développement peuvent garantir une mise en production réussie et une expérience utilisateur positive.</p>
         <!--Fin du contenu du cours-->
     </div>
     <script>setTitre()</script>
