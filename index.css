@@ -87,6 +87,7 @@ table {
 }
 
 table, th, td {
+    margin: auto;
     border: 1px solid #ced4da;
 }
 
