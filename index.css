@@ -98,3 +98,14 @@ th, td {
 th {
     background-color: #f1f3f5;
 }
+
+.ticket {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.ticket h3 {
+    margin-top: 0;
+}

@@ -18,11 +18,103 @@
     <div class="container">
         <h1 id="title">Titre du cours</h1>
         <!-- début du contenu du cours -->
-        Environement de dev test prod
+        <h2>Environnements de Développement, de Test et de Production</h2>
+        <p>Les environnements de développement, de test et de production sont trois types d'environnements essentiels dans le cycle de vie du développement logiciel. Chacun de ces environnements a des objectifs, des configurations et des utilisations spécifiques. Dans ce document, nous allons explorer les différences entre ces trois types d'environnements.</p>
+    
+        <h2>Environnements de Développement</h2>
+    
+        <h3>Définition</h3>
+        <p>Les environnements de développement sont des environnements où les développeurs écrivent, testent et déboguent le code. Ces environnements sont généralement isolés et ne sont pas accessibles aux utilisateurs finaux.</p>
+    
+        <h3>Objectifs</h3>
+        <ul>
+            <li>Écriture de Code : Permettre aux développeurs d'écrire et de modifier le code.</li>
+            <li>Tests Initiaux : Effectuer des tests unitaires et des tests d'intégration pour vérifier que le code fonctionne correctement.</li>
+            <li>Débogage : Identifier et corriger les bugs et les erreurs dans le code.</li>
+            <li>Expérimentation : Tester de nouvelles fonctionnalités et des modifications sans affecter les utilisateurs finaux.</li>
+        </ul>
+    
+        <h3>Caractéristiques</h3>
+        <ul>
+            <li>Configuration : Les environnements de développement sont souvent configurés pour être flexibles et permettre des modifications rapides.</li>
+            <li>Données : Utilisation de données de test ou de données fictives pour éviter de compromettre les données réelles.</li>
+            <li>Sécurité : Moins de restrictions de sécurité, car l'environnement est utilisé par les développeurs internes.</li>
+            <li>Performance : Moins de préoccupations concernant la performance, car l'environnement est utilisé pour le développement et non pour l'utilisation finale.</li>
+        </ul>
+    
+        <h2>Environnements de Test</h2>
+    
+        <h3>Définition</h3>
+        <p>Les environnements de test sont des environnements où le logiciel est testé de manière plus rigoureuse avant d'être déployé en production. Ces environnements sont utilisés pour vérifier que le logiciel fonctionne correctement dans des conditions proches de celles de la production.</p>
+    
+        <h3>Objectifs</h3>
+        <ul>
+            <li>Tests Fonctionnels : Vérifier que toutes les fonctionnalités du logiciel fonctionnent comme prévu.</li>
+            <li>Tests de Performance : Évaluer la performance du logiciel sous différentes charges.</li>
+            <li>Tests de Sécurité : Vérifier que le logiciel est sécurisé contre les menaces potentielles.</li>
+            <li>Tests d'Intégration : Assurer que toutes les composantes du logiciel fonctionnent ensemble correctement.</li>
+        </ul>
+    
+        <h3>Caractéristiques</h3>
+        <ul>
+            <li>Configuration : Les environnements de test sont configurés pour être aussi proches que possible de l'environnement de production.</li>
+            <li>Données : Utilisation de données de test réalistes pour simuler les conditions de production.</li>
+            <li>Sécurité : Restrictions de sécurité modérées pour permettre des tests approfondis.</li>
+            <li>Performance : Préoccupations majeures concernant la performance pour s'assurer que le logiciel peut gérer les charges de production.</li>
+        </ul>
+    
+        <h2>Environnements de Production</h2>
+    
+        <h3>Définition</h3>
+        <p>Les environnements de production sont des environnements où le logiciel final est déployé et utilisé par les utilisateurs finaux. Ces environnements sont généralement très contrôlés et surveillés pour garantir la stabilité et la sécurité.</p>
+    
+        <h3>Objectifs</h3>
+        <ul>
+            <li>Disponibilité : Assurer que le logiciel est disponible et accessible aux utilisateurs finaux.</li>
+            <li>Fiabilité : Garantir que le logiciel fonctionne de manière stable et fiable.</li>
+            <li>Sécurité : Protéger les données et les informations des utilisateurs contre les menaces potentielles.</li>
+            <li>Performance : Assurer que le logiciel répond aux exigences de performance dans un environnement réel.</li>
+        </ul>
+    
+        <h3>Caractéristiques</h3>
+        <ul>
+            <li>Configuration : Les environnements de production sont configurés pour être stables et sécurisés.</li>
+            <li>Données : Utilisation de données réelles et sensibles, ce qui nécessite des mesures de sécurité strictes.</li>
+            <li>Sécurité : Restrictions de sécurité élevées pour protéger les données et les informations des utilisateurs.</li>
+            <li>Performance : Préoccupations majeures concernant la performance, car l'environnement est utilisé par les utilisateurs finaux.</li>
+        </ul>
+        <h2>Système de Numérotation de Version</h2>
+        <p>Le système de numérotation de version est une convention utilisée pour identifier et suivre les différentes versions d'un logiciel. Il permet aux développeurs, aux utilisateurs et aux autres parties prenantes de comprendre les changements apportés à chaque version et de gérer les mises à jour de manière efficace.</p>
+    
+        <h2>Composants d'une Version</h2>
+        <p>Une version de logiciel est généralement représentée par une série de numéros séparés par des points. La convention la plus courante est la suivante :</p>
+        <pre>MAJEUR.MINEUR.PATCH</pre>
+        <ul>
+            <li><strong>MAJEUR</strong> : Représente les changements majeurs qui peuvent inclure des modifications importantes de l'architecture, des fonctionnalités principales, ou des changements qui ne sont pas rétrocompatibles.</li>
+            <li><strong>MINEUR</strong> : Représente les ajouts de nouvelles fonctionnalités ou les améliorations mineures qui sont rétrocompatibles.</li>
+            <li><strong>PATCH</strong> : Représente les corrections de bugs ou les petites améliorations qui sont rétrocompatibles.</li>
+        </ul>
+    
+        <h2>Exemple</h2>
+        <p>Prenons l'exemple d'une version de logiciel <code>1.2.3</code> :</p>
+        <ul>
+            <li><strong>1</strong> : Version majeure</li>
+            <li><strong>2</strong> : Version mineure</li>
+            <li><strong>3</strong> : Version de patch</li>
+        </ul>
+    
+        <h2>Évolution des Versions</h2>
+        <p>Lorsque des modifications sont apportées au logiciel, les numéros de version sont incrémentés en fonction de la nature des changements :</p>
+        <ul>
+            <li><strong>Incrémentation de PATCH</strong> : Si une correction de bug ou une petite amélioration est apportée, le numéro de patch est incrémenté (par exemple, de <code>1.2.3</code> à <code>1.2.4</code>).</li>
+            <li><strong>Incrémentation de MINEUR</strong> : Si une nouvelle fonctionnalité rétrocompatible est ajoutée, le numéro mineur est incrémenté et le numéro de patch est réinitialisé à zéro (par exemple, de <code>1.2.3</code> à <code>1.3.0</code>).</li>
+            <li><strong>Incrémentation de MAJEUR</strong> : Si une modification majeure non rétrocompatible est apportée, le numéro majeur est incrémenté et les numéros mineur et patch sont réinitialisés à zéro (par exemple, de <code>1.2.3</code> à <code>2.0.0</code>).</li>
+        </ul>
+    
+        <h2>Conclusion</h2>
+        <p>Le système de numérotation de version est essentiel pour la gestion efficace des versions de logiciel. Il permet de suivre les changements, de maintenir la compatibilité, et de communiquer clairement les mises à jour aux utilisateurs et aux développeurs. En utilisant une convention cohérente, les équipes de développement peuvent assurer une gestion de version claire et structurée.</p>
 
-        Versioning 
-
-        Schéma de rappel
+        <!--Schéma de rappel-->
         <!--Fin du contenu du cours-->
     </div>
     <script>setTitre()</script>

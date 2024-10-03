@@ -44,3 +44,14 @@ function setTitre() {
         document.getElementById('title').innerText = titre;
     }
 }
+
+/*
+ * Fonction qui valide un verison de code
+ */
+function validateVersion(input) {
+    const versionPattern = /^\d+\.\d+\.\d+$/;
+    if (!versionPattern.test(input.value)) {
+        alert("Le format de la version doit être MAJEUR.MINEUR.PATCH");
+        input.value = "";
+    }
+}
