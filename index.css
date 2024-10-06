@@ -60,14 +60,14 @@ ul {
 .home-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #a2c037;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .home-button:hover {
-    background-color: #0056b3;
+    background-color: #007686;
 }
 
 textarea {
