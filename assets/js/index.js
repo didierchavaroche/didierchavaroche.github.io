@@ -48,6 +48,7 @@ function setTitre() {
 
     for(let i=0; i<textareas.length; i++) {
         textareas[i].addEventListener('input', () => {
+            textareas[i].style.height = 'auto';
             textareas[i].style.height = textareas[i].scrollHeight + 'px';
         });
     }
