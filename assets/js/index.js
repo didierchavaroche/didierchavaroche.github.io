@@ -43,6 +43,15 @@ function setTitre() {
         document.title = titre;
         document.getElementById('title').innerText = titre;
     }
+
+    const textareas = document.getElementsByTagName('textarea');
+
+    for(let i=0; i<textareas.length; i++) {
+        textareas[i].addEventListener('input', () => {
+            textareas[i].style.height = 'auto';
+            textareas[i].style.height = textarea.scrollHeight + 'px';
+        });
+    }
 }
 
 /*
