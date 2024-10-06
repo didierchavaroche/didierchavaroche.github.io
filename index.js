@@ -46,7 +46,7 @@ function setTitre() {
 }
 
 /*
- * Fonction qui valide un verison de code
+ * Fonction qui valide un version de code
  */
 function validateVersion(input) {
     const versionPattern = /^\d+\.\d+\.\d+$/;
@@ -54,4 +54,15 @@ function validateVersion(input) {
         alert("Le format de la version doit être MAJEUR.MINEUR.PATCH");
         input.value = "";
     }
+}
+
+/*
+ * Fonctions d'affichage des images
+ */
+function openFullscreen() {
+    document.getElementById("fullscreen-image").style.display = "block";
+}
+
+function closeFullscreen() {
+    document.getElementById("fullscreen-image").style.display = "none";
 }
